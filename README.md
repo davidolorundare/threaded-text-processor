@@ -17,7 +17,7 @@ Both versions of the program were evaluated with various dataset sizes (of which
 
 ---
 
-### Version1 Program execution: the alice30.txt file on the terminal
+### Version1 Program execution: the usdeclar.txt file on the terminal
 
 ![alt text](https://github.com/davidolorundare/image-repo/blob/master/threaded-text-processor-images/cli_execution.png "Pipe-and-Filter (version1) program running on the terminal")
 
