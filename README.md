@@ -58,9 +58,9 @@ During operation, each filter's response-time is measured for later
 evaluation.
 
 There are 3 available filters, represented by the numbers 1-3:
-1 - RemoveStopWords Text Filter
-2 - RemoveNonAlphabeticText Filter
-3 - StemWordsToRoot Text Filter
+1. RemoveStopWords Text Filter
+2. RemoveNonAlphabeticText Filter
+3. StemWordsToRoot Text Filter
 
 Irrespective of the filter order, the program will always Compute
 the word-term frequencies.
@@ -78,27 +78,24 @@ The build folders of version 1 and 2, contain all the executable files needed fo
 Open a terminal (or commandline shell) and navigate to the version's directory. i.e. '/version1/' or '/version2/'
 The format for running the program is:
 
->> java -cp <jar library_filepath>: TextProcessorMain <input_filepath> <stopWord_filepath> filter_number(s)
+```>> java -cp <jar library_filepath>: TextProcessorMain <input_filepath> <stopWord_filepath> filter_number(s)```
 
 
 For example, while in the 'version' directory, RUN:
 
->> java -cp build/lib/build TextProcessorMain “bin/data/alice30.txt” “bin/data/stopwords.txt” 1
+```>> java -cp build/lib/build TextProcessorMain “bin/data/alice30.txt” “bin/data/stopwords.txt” 1```
  
  This command will run the program on input file ‘alice30.txt’ with only text-filter 1.
 
-
->> java -cp build/lib/*:build textprocess.core.TextProcessorMain “build/data/usdeclar.txt” “build/data/stopwords.txt” 1 2
+```>> java -cp build/lib/*:build textprocess.core.TextProcessorMain “build/data/usdeclar.txt” “build/data/stopwords.txt” 1 2```
  
 This command will run the program on input file ‘usdeclar.txt’ with text-filters 1 and 2, in that order.
 
-
->> java -cp build/lib/*:build textprocess.core.TextProcessorMain “build/data/usdeclar.txt” “build/data/stopwords.txt” 2 3
+```>> java -cp build/lib/*:build textprocess.core.TextProcessorMain “build/data/usdeclar.txt” “build/data/stopwords.txt” 2 3```
 
 This command will run the program on input file ‘usdeclar.txt’ with text-filters 2 and 3, in that order.
 
-
->> java -cp build/lib/*:build TextProcessorMain “build/data/kjbible.txt” “build/data/stopwords.txt” 1 2 3
+```>> java -cp build/lib/*:build TextProcessorMain “build/data/kjbible.txt” “build/data/stopwords.txt” 1 2 3```
 
 This command will run on input file ‘kjbible.txt’ with all text-filters (1, 2, and 3) in that order.
 
