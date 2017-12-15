@@ -1,4 +1,5 @@
-# Natural Language Processing: MultiThreaded Text Processor
+
+# Multi-Threaded Text Processor
 Academic Project - A multi-threaded text processor designed and implemented with an active pipe-and-filter-based architecture.
 
 ## Overview:
@@ -97,5 +98,22 @@ This command will run the program on input file ‘usdeclar.txt’ with text-fil
 This command will run on input file ‘kjbible.txt’ with all text-filters (1, 2, and 3) in that order.
 
 ```>> java -cp build/lib/*:build TextProcessorMain “build/data/kjbible.txt” “build/data/stopwords.txt” 1 2 3```
+
+---
+
+### Running Demos:
+
+### Program running with one text filter:
+![alt text](https://media.giphy.com/media/26Ff4GWPaBPd0X9Bu/giphy.gif "Pipe-and-Filter (version1) program running in terminal")
+
+---
+
+### Program running with two text filters:
+![alt text](https://media.giphy.com/media/l4EpbhNOnK7NuEORy/giphy.gif "Pipe-and-Filter (version1) program running in terminal")
+
+---
+
+### Program running with all three text filters
+![alt text](https://media.giphy.com/media/26FeYBORuJTHW1LnW/giphy.gif "Pipe-and-Filter (version1) program running in terminal")
 
 ---
