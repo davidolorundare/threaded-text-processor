@@ -101,7 +101,7 @@ This command will run on input file ‘kjbible.txt’ with all text-filters (1, 
 
 ---
 
-### Running Demos:
+## Running Demos:
 
 ### Program running with one text filter:
 ![alt text](https://media.giphy.com/media/26Ff4GWPaBPd0X9Bu/giphy.gif "Pipe-and-Filter (version1) program running in terminal")
