@@ -12,8 +12,6 @@ Both versions of the program were evaluated with various dataset sizes (of which
 
 ## Screenshots:
 
----
-
 ### UML Component&Connector Design
 ![alt text](https://github.com/davidolorundare/image-repo/blob/master/threaded-text-processor-images/C%26C_PART%20I%20Design.png "Pipe-and-Filter (version1) program UML Diagram")
 
