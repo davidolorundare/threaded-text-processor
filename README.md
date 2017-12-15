@@ -81,7 +81,7 @@ For example, while in the 'version' directory:
 
  This command will run the program on input file ‘alice30.txt’ with only text-filter 1
  
-```>> java -cp build/lib/*:build textprocess.core.TextProcessorMain “bin/data/alice30.txt” “bin/data/stopwords.txt” 1```
+```>> java -cp build/lib/*:build textprocess.core.TextProcessorMain “build/data/alice30.txt” “build/data/stopwords.txt” 1```
  
 
 This command will run the program on input file ‘usdeclar.txt’ with text-filters 1 and 2, in that order.
@@ -99,6 +99,8 @@ This command will run on input file ‘kjbible.txt’ with all text-filters (1, 
 ```>> java -cp build/lib/*:build TextProcessorMain “build/data/kjbible.txt” “build/data/stopwords.txt” 1 2 3```
 
 
+
+## Running DEMO:
 
 
 
