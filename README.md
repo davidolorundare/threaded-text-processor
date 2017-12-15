@@ -17,13 +17,13 @@ Both versions of the program were evaluated with various dataset sizes (of which
 
 ---
 
-### Version1 Program running the alice30.txt file on the terminal
+### Version1 Program: the alice30.txt file on the terminal
 
 ![alt text](https://github.com/davidolorundare/image-repo/blob/master/threaded-text-processor-images/cli_execution.png "Pipe-and-Filter (version1) program running on the terminal")
 
 ---
 
-### Version2 Program running the KJBible.txt data-file on the terminal
+### Version2 Program: the KJBible.txt data-file on the terminal
 
 ![alt text](https://github.com/davidolorundare/image-repo/blob/master/threaded-text-processor-images/kjbible_execution.png "Pipe-and-Filter (version1) program running the KJBible.txt data-file on the terminal")
 
@@ -100,7 +100,18 @@ This command will run on input file ‘kjbible.txt’ with all text-filters (1, 
 
 
 
+---
 ## Running DEMO:
 
+
+### Execution in the terminal
+![alt text](https://github.com/davidolorundare/image-repo/blob/master/threaded-text-processor-images/program-execution1.gif "Pipe-and-Filter (version1) program running on the terminal")
+
+---
+
+### Program execution in the terminal
+![alt text](https://github.com/davidolorundare/image-repo/blob/master/threaded-text-processor-images/program-execution2.gif "Pipe-and-Filter (version1) program running on the terminal")
+
+---
 
 
