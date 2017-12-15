@@ -105,12 +105,12 @@ This command will run on input file ‘kjbible.txt’ with all text-filters (1, 
 
 
 ### Execution in the terminal
-![alt text](https://github.com/davidolorundare/image-repo/blob/master/threaded-text-processor-images/program-execution1.gif "Pipe-and-Filter (version1) program running on the terminal")
+![Alt text](https://media.giphy.com/media/xT1R9JrNOnmCYq5pWo/giphy.gif  "Pipe-and-Filter (version1) program running on the terminal")
 
 ---
 
 ### Program execution in the terminal
-![alt text](https://github.com/davidolorundare/image-repo/blob/master/threaded-text-processor-images/program-execution2.gif "Pipe-and-Filter (version1) program running on the terminal")
+![Alt text](https://github.com/davidolorundare/image-repo/blob/master/threaded-text-processor-images/program-execution2.gif "Pipe-and-Filter (version1) program running on the terminal")
 
 ---
 
