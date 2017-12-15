@@ -9,45 +9,40 @@ Implementing the program with a modular pipe-and-filter architecture enabled eas
 Two versions of the program were implemented, the first uses a standard active (multi-threaded) pipe-and-filter architecture, however, the second uses multiple instances of some filters in order to increase throughput but also address performance-bottlenecks at some of the pipes.
 
 Both versions of the program were evaluated with various dataset sizes (of which some are included in the codebase), their executions were instrumented, and their performance characteristics stored in an internal data structure for later processing. Given the modular nature of the program, it could very well be extended to feed into a front-end UI or an analytics back-end if needed.
-threaded-text-processor
-
 
 ## Screenshots:
 
+---
+
+### UML Component&Connector Design
 ![alt text](https://github.com/davidolorundare/image-repo/blob/master/threaded-text-processor-images/C%26C_PART%20I%20Design.png "Pipe-and-Filter (version1) program UML Diagram")
 
-
 ---
+
+### Version1 Program running the alice30.txt file on the terminal
 
 ![alt text](https://github.com/davidolorundare/image-repo/blob/master/threaded-text-processor-images/cli_execution.png "Pipe-and-Filter (version1) program running on the terminal")
 
-
 ---
+
+### Version2 Program running the KJBible.txt data-file on the terminal
 
 ![alt text](https://github.com/davidolorundare/image-repo/blob/master/threaded-text-processor-images/kjbible_execution.png "Pipe-and-Filter (version1) program running the KJBible.txt data-file on the terminal")
 
-
 ---
 
-![alt text](https://github.com/davidolorundare/image-repo/blob/master/threaded-text-processor-images/kjbible_execution.png "Pipe-and-Filter (version1) program running the KJBible.txt data-file on the terminal")
-
-
----
-
+### Version1 Program Performance Chart (plotted with Python Matplotlib)
 ![alt text](https://github.com/davidolorundare/image-repo/blob/master/threaded-text-processor-images/responseTimes.png "Pipe-and-Filter (version1) program performance chart")
 
-
 ---
 
-
+### Version2 Program Performance Chart (plotted with Python Matplotlib)
 ![alt text](https://github.com/davidolorundare/image-repo/blob/master/threaded-text-processor-images/parallelizedResponse-time.png "Pipe-and-Filter (version2) program performance chart")
 
-
 ---
 
-
+### Version1 and Version2 Program Performance Comparison Chart (plotted with Python Matplotlib)
 ![alt text](https://github.com/davidolorundare/image-repo/blob/master/threaded-text-processor-images/sideBysideComparison.png "Pipe-and-Filter version1 and version2 program performance comparisons")
-
 
 ---
 
@@ -81,26 +76,31 @@ The build folders of version 1 and 2, contain all the executable files needed fo
 Open a terminal (or commandline shell) and navigate to the version's directory. i.e. '/version1/' or '/version2/'
 The format for running the program is:
 
-```>> java -cp <jar library_filepath>: TextProcessorMain <input_filepath> <stopWord_filepath> filter_number(s)```
+```>> java -cp <jar library_filepath>: textprocess.core.TextProcessorMain <input_filepath> <stopWord_filepath> filter_number(s)```
 
 
-For example, while in the 'version' directory, RUN:
+For example, while in the 'version' directory:
 
-```>> java -cp build/lib/build TextProcessorMain “bin/data/alice30.txt” “bin/data/stopwords.txt” 1```
+ This command will run the program on input file ‘alice30.txt’ with only text-filter 1
  
- This command will run the program on input file ‘alice30.txt’ with only text-filter 1.
+```>> java -cp build/lib/*:build textprocess.core.TextProcessorMain “bin/data/alice30.txt” “bin/data/stopwords.txt” 1```
+ 
+
+This command will run the program on input file ‘usdeclar.txt’ with text-filters 1 and 2, in that order.
 
 ```>> java -cp build/lib/*:build textprocess.core.TextProcessorMain “build/data/usdeclar.txt” “build/data/stopwords.txt” 1 2```
  
-This command will run the program on input file ‘usdeclar.txt’ with text-filters 1 and 2, in that order.
+ 
+This command will run the program on input file ‘usdeclar.txt’ with text-filters 2 and 3, in that order.
 
 ```>> java -cp build/lib/*:build textprocess.core.TextProcessorMain “build/data/usdeclar.txt” “build/data/stopwords.txt” 2 3```
 
-This command will run the program on input file ‘usdeclar.txt’ with text-filters 2 and 3, in that order.
+
+This command will run on input file ‘kjbible.txt’ with all text-filters (1, 2, and 3) in that order.
 
 ```>> java -cp build/lib/*:build TextProcessorMain “build/data/kjbible.txt” “build/data/stopwords.txt” 1 2 3```
 
-This command will run on input file ‘kjbible.txt’ with all text-filters (1, 2, and 3) in that order.
+
 
 
 
