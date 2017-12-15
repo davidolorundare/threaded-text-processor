@@ -17,36 +17,39 @@ threaded-text-processor
 ![alt text](https://github.com/davidolorundare/image-repo/blob/master/threaded-text-processor-images/C%26C_PART%20I%20Design.png "Pipe-and-Filter (version1) program UML Diagram")
 
 
-
+---
 
 ![alt text](https://github.com/davidolorundare/image-repo/blob/master/threaded-text-processor-images/cli_execution.png "Pipe-and-Filter (version1) program running on the terminal")
 
 
-
-
-![alt text](https://github.com/davidolorundare/image-repo/blob/master/threaded-text-processor-images/kjbible_execution.png "Pipe-and-Filter (version1) program running the KJBible.txt data-file on the terminal")
-
-
-
+---
 
 ![alt text](https://github.com/davidolorundare/image-repo/blob/master/threaded-text-processor-images/kjbible_execution.png "Pipe-and-Filter (version1) program running the KJBible.txt data-file on the terminal")
 
 
+---
 
+![alt text](https://github.com/davidolorundare/image-repo/blob/master/threaded-text-processor-images/kjbible_execution.png "Pipe-and-Filter (version1) program running the KJBible.txt data-file on the terminal")
+
+
+---
 
 ![alt text](https://github.com/davidolorundare/image-repo/blob/master/threaded-text-processor-images/responseTimes.png "Pipe-and-Filter (version1) program performance chart")
 
 
+---
 
 
 ![alt text](https://github.com/davidolorundare/image-repo/blob/master/threaded-text-processor-images/parallelizedResponse-time.png "Pipe-and-Filter (version2) program performance chart")
 
 
+---
 
 
 ![alt text](https://github.com/davidolorundare/image-repo/blob/master/threaded-text-processor-images/sideBysideComparison.png "Pipe-and-Filter version1 and version2 program performance comparisons")
 
 
+---
 
 
 ## Usage:
